@@ -167,8 +167,7 @@ const HomePage = () => {
 
           <form onSubmit={submitOrder}>
             <TextField
-              name={"name"}
-              type={"name"}
+              name="clientName"
               label={"Nome"}
               value={form.clientName}
               onChange={handleForm}
